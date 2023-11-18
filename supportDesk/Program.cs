@@ -15,6 +15,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<SupportdeskdbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDatabase")));
 
+
+// Scaffold - DbContext "Server=GAUTAM\SQLEXPRESS; Database=IP_DBFirst; User Id=sa; Password=123456; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer - OutputDir Models
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
