@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using supportDesk.Helper;
 using supportDesk.Models;
+using supportDesk.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +12,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// config Dependency Injection
 
+// config Dependency Injection
 builder.Services.AddDbContext<SupportdeskdbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDatabase")));
+
+// Injection for Email config from appsetting.json
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettions"));
+
+// add services
+
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 
 // Scaffold - DbContext "Server=GAUTAM\SQLEXPRESS; Database=IP_DBFirst; User Id=sa; Password=123456; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer - OutputDir Models

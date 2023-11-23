@@ -255,3 +255,8 @@ G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\ru\Micr
 G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\MailKit.dll
+G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\MimeKit.dll
+G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+G:\Rakibbhai\DotNet\supportDesk\supportDesk\supportDesk\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
